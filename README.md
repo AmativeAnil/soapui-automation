@@ -10,13 +10,9 @@ Maven Integration plugin:
 	<groupId>com.smartbear.soapui</groupId>
 	<artifactId>soapui-maven-plugin</artifactId>
 	<version>5.0.0</version>
-
-	<!-- Change the name to identify -->
 	<configuration>
 		<projectFile>src/test/resources/soapui/Soapui-auto-soapui-project.xml</projectFile>
-		<!-- Change the project file name -->
 		<outputFolder>target/surefire-reports</outputFolder>
-		<!-- Change the suite name -->
 		<junitReport>true</junitReport>
 		<exportwAll>true</exportwAll>
 		<printReport>true</printReport>
